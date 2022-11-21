@@ -7,4 +7,4 @@ export function ViewA  () {
   </>
   )
 }
-export default ViewA;
+export default {ViewA};

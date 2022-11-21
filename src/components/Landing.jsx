@@ -5,9 +5,9 @@ export function Landing  () {
   return (
  <>
  <div>Landing</div>
- <button >Continuar</button>
+ <button onClick = {() => navigate('/ViewA')}>Continuar </button>
 </>
   )
 }
 
-export default Landing
+export default {Landing}
